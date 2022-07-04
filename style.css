@@ -1,0 +1,217 @@
+/*font-family: 'Abril Fatface', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif;*/
+/* common sectionstart*/
+:root{
+    --abril: 'Abril Fatface', cursive;
+    --open:'Open Sans', sans-serif;
+    --ubuntu:'Ubuntu', sans-serif;
+    --main:  #0f2f44;;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+} 
+/* common section end*/
+/* header section css start*/ 
+#header{
+    font-family: var(--open)
+}
+#header .top-header{
+    background: var(--main);
+    color: #fefefe;
+    font-weight: 400;
+    padding: 15px 0;
+}
+#header .top-header .row{
+    justify-content: space-between;
+}
+#header .nav div.row{
+    align-items: center;
+}
+#header .nav .logo{
+    width: 20%;
+}
+#header .nav .menu{
+    width: 80%;
+}
+#header .nav .menu{
+    justify-content: flex-end;
+}
+#header .nav .menu ul li a{
+    color: #222222;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 35px 19px;
+    display: inline-block;
+    transition: .2s linear;
+}
+#header .nav .menu ul li:hover a{
+    background-color: #fff9e6;
+    color: #ffcd2d;
+}
+#header .nav .menu ul li a.active,
+#header .nav .menu .nav-icon li:hover{
+    background-color: #fff9e6;
+    color: #ffcd2d;
+}
+#header .nav .menu .nav-icon li{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #e5e5e5;
+    margin: 0 10px;
+    text-align: center;
+    line-height: 30px;
+    color: #999;
+    transition: .2s;
+    cursor: pointer;
+}
+/* header section css start*/
+/*banner section start*/
+#banner{
+    background: #e0eeff;
+}
+#banner .row{
+    align-items: center;
+}
+#banner .banner-info{
+    width: 35%;
+}
+#banner .banner-info h1{
+    color: var(--main);
+    font-size: 80px;
+    line-height: 0.9;
+}
+#banner .banner-info h1 small{
+    font-family:'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    display: block;
+}
+#banner .banner-info h5{
+    font-family: var(--ubuntu);
+    font-size: 32px;
+    letter-spacing: 14px;
+    padding: 15px 0 30px;
+    color: #8484bf;
+}
+#banner .banner-info p{
+    font-size: 14px;
+    color: #444;
+    text-align: justify;
+    line-height: 1.5;
+    font-family: var(--open);
+}
+#banner .banner-info a{
+    display: inline-block;
+    padding: 15px 20px;
+     background-color: #8383bf;
+     color: white;
+     font-size: 20px;
+     font-family: var(--ubuntu);
+     border-radius: 5px;
+     margin: 10px;
+}
+#banner .banner-info button{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+    color: #8383bf;
+    font-size: 20px;
+    margin-left: 20px;
+}
+#banner .banner-img{
+    width: 65%;
+    padding-top: 63px;
+}
+/*banner section start*/
+/*about section start*/
+#about .aboutus{
+    padding-top: 100px;
+}
+#about .about-info{
+    width: 45%;
+    margin-bottom: 50px;
+}
+#about .about-info .whoweare{
+    font-family: var(--ubuntu);
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 0.2;
+    color: #4b6373;
+}
+#about .about-info h1{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.9;
+    color: #0f2f44;
+}
+#about .about-info p{
+    font-family: var(--open);
+    font-size: 16px;
+    font-weight: 400;
+    color: #4a6272;
+    line-height: 1.5;
+    text-align: justify;
+}
+#about .about-info .aboutli{
+    padding-top: 33px;
+}
+#about .about-info .aboutli li{
+    padding-bottom: 30px;
+    padding-left: 30px;
+    font-family: var(--open);
+    font-size: 16px;
+    font-weight: 400;
+    color: #4a6272;
+}
+#about .about-info .ankor-one{
+    display: inline-block;
+    padding: 15px 20px;
+     background-color: white;
+     color: #0f2f44;
+     font-size: 20px;
+     font-family: var(--ubuntu);
+     border-radius: 5px;
+     transition-duration: .3s;
+}
+#about .about-info .ankor-one:hover{
+    background-color: #ffc712 ;
+}
+#about .about-info .ankor-two{
+    display: inline-block;
+    padding: 15px 20px;
+     background-color: white;
+     color: #0f2f44;
+     font-size: 20px;
+     font-family: var(--ubuntu);
+     border-radius: 5px;
+     box-shadow: 0px 7px 20px 0px rgba(0,0,0,0.15);
+}
+#about .about-img{
+    width: 55%;
+}
+/*about section start*/

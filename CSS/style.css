@@ -1,0 +1,67 @@
+/*font-family: 'Abril Fatface', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif;*/
+/* common sectionstart*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+} 
+/* common section end*/
+/* header section css start*/ 
+#header{
+    font-family: 'Ubuntu', sans-serif;
+}
+#header .top-header{
+    background: #0f2f44;
+    color: #fefefe;
+    font-weight: 400;
+    padding: 15px 0;
+}
+#header .top-header .row{
+    justify-content: space-between;
+}
+#header .nav div.row{
+    align-items: center;
+}
+#header .nav .logo{
+    width: 20%;
+}
+#header .nav .menu{
+    width: 80%;
+}
+#header .nav .menu ul.row{
+    justify-content: flex-end;
+}
+#header .nav .menu ul li a{
+    color: #222222;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 35px 19px;
+    display: inline-block;
+    transition: .2s linear;
+}
+#header .nav .menu ul li:hover a{
+    background-color: #fff9e6;
+    color: #ffcd2d;
+}
+#header .nav .menu ul li a.active{
+    background-color: #fff9e6;
+    color: #ffcd2d;
+}
+/* header section css start*/
